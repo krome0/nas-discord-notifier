@@ -9,12 +9,14 @@ class Config:
 
 data_kr = {
     'content':f'{Config.nas_name}가 켜졌습니다.',
-    'username':'NAS 알림'
+    'username':'NAS 알림',
+    'avatar_url':'bot_icon.png'
 }
 
 data_en = {
     'content':f'{Config.nas_name} is turned on',
-    'username':'NAS Notifier'
+    'username':'NAS Notifier',
+    'avatar_url':'bot_icon.png'
 }
 
 langdata = {'kr':data_kr, 'en':data_en}
