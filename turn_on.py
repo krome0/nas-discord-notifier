@@ -10,13 +10,13 @@ class Config:
 data_kr = {
     'content':f'{Config.nas_name}가 켜졌습니다.',
     'username':'NAS 알림',
-    'avatar_url':'bot_icon.png'
+    'avatar_url':'https://rawcdn.githack.com/krome0/nas-discord-notifier/b81046852f29a92448db6d605a1a22603f69b7bd/bot_icon.png'
 }
 
 data_en = {
     'content':f'{Config.nas_name} is turned on',
     'username':'NAS Notifier',
-    'avatar_url':'bot_icon.png'
+    'avatar_url':'https://rawcdn.githack.com/krome0/nas-discord-notifier/b81046852f29a92448db6d605a1a22603f69b7bd/bot_icon.png'
 }
 
 langdata = {'kr':data_kr, 'en':data_en}
